@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.carousel{
+position: relative;
+margin-top: 10%;
+.top-carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.buttons{
+    font-size: 26px;
+    margin-left: 30px;
+    color: rgb(72, 171, 201);
+    cursor: pointer;
+    
+
+    .right{
+        margin-left: 10px;
+    }
+}
+    
+}
+.cards{
+    .cards-items {
+        .card-img{
+            display: none;
+            h4{
+                padding-left: 78px;
+                font-weight: bold;
+            }
+        }
+        img{
+        width: 223px;
+        height: 200px;
+        border-radius: 12px;
+        }
+    }
+}
+.active{
+    display:block !important;
+    
+}
